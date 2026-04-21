@@ -1,15 +1,17 @@
-BSV_collect.py: Handles coordinate transformation (WGS84 → Baidu BD-09) and Baidu Street View image downloading.
+Scripts description:
 
-curriculum_learning.py: Acts as a bridge between the training pipeline and data augmentation strategies. Located under `./ultralytics/engine`.
+1、BSV_collect.py: Handles coordinate transformation (WGS84 → Baidu BD-09) and Baidu Street View image downloading.
 
-custom_dataset.py: Customized dataset loading and preprocessing module, incorporating epoch-aware logic and curriculum-based scheduling. Located under `./ultralytics/data`.
+2、curriculum_learning.py: Acts as a bridge between the training pipeline and data augmentation strategies. Located under `./ultralytics/engine`.
 
-data_config.yaml: Configuration file for YOLO training dataset.
+3、custom_dataset.py: Customized dataset loading and preprocessing module, incorporating epoch-aware logic and curriculum-based scheduling. Located under `./ultralytics/data`.
 
-label_converter.py: Converts polygon annotations from X-AnyLabeling JSON format to YOLO format.
+4、data_config.yaml: Configuration file for YOLO training dataset.
 
-Parking_Generated.py: Contains model inference and visualization examples.
+5、label_converter.py: Converts polygon annotations from X-AnyLabeling JSON format to YOLO format.
 
-Train_Test.ipynb: Notebook for training and testing the model.
+6、Parking_Generated.py: Contains model inference and visualization examples.
 
-YOLOv8l_CA.yaml: Modified YOLOv8 architecture integrated with Coordinate Attention (CA) mechanism.
+7、Train_Test.ipynb: Notebook for training and testing the model.
+
+8、YOLOv8l_CA.yaml: Modified YOLOv8 architecture integrated with Coordinate Attention (CA) mechanism.
