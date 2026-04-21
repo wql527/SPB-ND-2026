@@ -1,0 +1,12 @@
+# 数据集根目录
+path: /content/drive/MyDrive/Test/xuanwu
+
+# 训练和验证相对于 path 的路径
+train:  images  
+val:  images     
+
+# 类别信息
+nc: 2
+names:
+  0: parallel
+  1: vertical
